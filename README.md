@@ -4,6 +4,7 @@ This repository contains files associated with a tutorial on genome-wide associa
 All but one of the necessary files are currently present in the repository. To retrieve the PED file, navigate to the cloned repo and run the following command:
 ```
 wget https://ucsf.box.com/shared/static/79b3r82waw35j7fgtqwufqhbqbrm4jxj.gz
+mv 79b3r82waw35j7fgtqwufqhbqbrm4jxj.gz GWAS_tutorial.ped.gz
 ```
 
 To run the tutorial, create a Conda environment using the provided YML file, activate the environment, and launch Jupyter Lab:
