@@ -1,0 +1,13 @@
+name: GWAS_tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - statsmodels
